@@ -157,7 +157,7 @@ function avgLength(arrOfObj,string) {
   var len=string.length;
     var arrOfStr=arrOfObj.reduce(function(acc,cu)
       {return acc+cu[string].length;},0);
-console.log(arrOfStr/string.length);
+console.log(arrOfStr/arrOfObj.length);
   
 
 }
